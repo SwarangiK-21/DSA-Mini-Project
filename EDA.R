@@ -1,5 +1,5 @@
-install.packages("tidyverse")
-install.packages("lubridate")
+#install.packages("tidyverse")
+#install.packages("lubridate")
 library(tidyverse)
 library(lubridate)
 
@@ -7,7 +7,7 @@ theme_set(theme_light())
 
 # 2. DATA INGESTION AND WRANGLING
 
-Coffee_Shop_Sales_Dataset <- read_csv("Coffee_Shop_Sales_Dataset.xlsx - Sheet1.csv")
+#Coffee_Shop_Sales_Dataset <- read_csv("Coffee_Shop_Sales_Dataset.xlsx - Sheet1.csv")
 
 sales_clean <- Coffee_Shop_Sales_Dataset %>%
   
